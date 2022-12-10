@@ -1,16 +1,14 @@
-import org.junit.Before;
-import org.junit.Ignore;
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
 
-public class DifferenceOfSquaresCalculatorTest {
+import org.junit.Before;
+import org.junit.Test;
 
-    private DifferenceOfSquaresCalculator calculator;
+public class DifferenceOfSquaresCalculatorStreamTest {
+    private DifferenceOfSquaresCalculatorStream calculator;
 
     @Before
     public void setUp() {
-        calculator = new DifferenceOfSquaresCalculator();
+        calculator = new DifferenceOfSquaresCalculatorStream();
     }
 
     @Test
@@ -75,4 +73,5 @@ public class DifferenceOfSquaresCalculatorTest {
         int actual = calculator.computeDifferenceOfSquares(100);
         assertEquals(expected, actual);
     }
+
 }

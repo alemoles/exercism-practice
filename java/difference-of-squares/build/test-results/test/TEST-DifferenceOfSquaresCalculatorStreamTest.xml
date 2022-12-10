@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DifferenceOfSquaresCalculatorStreamTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-12-10T15:46:59" hostname="DESKTOP-O7SKPPD" time="0.016">
+  <properties/>
+  <testcase name="testDifferenceOfSquaresUpToHundred" classname="DifferenceOfSquaresCalculatorStreamTest" time="0.013"/>
+  <testcase name="testSquareOfSumUpToOne" classname="DifferenceOfSquaresCalculatorStreamTest" time="0.0"/>
+  <testcase name="testSquareOfSumUpToHundred" classname="DifferenceOfSquaresCalculatorStreamTest" time="0.0"/>
+  <testcase name="testDifferenceOfSquaresUpToOne" classname="DifferenceOfSquaresCalculatorStreamTest" time="0.0"/>
+  <testcase name="testSumOfSquaresUpToHundred" classname="DifferenceOfSquaresCalculatorStreamTest" time="0.0"/>
+  <testcase name="testSquareOfSumUpToFive" classname="DifferenceOfSquaresCalculatorStreamTest" time="0.001"/>
+  <testcase name="testDifferenceOfSquaresUpToFive" classname="DifferenceOfSquaresCalculatorStreamTest" time="0.0"/>
+  <testcase name="testSumOfSquaresUpToOne" classname="DifferenceOfSquaresCalculatorStreamTest" time="0.0"/>
+  <testcase name="testSumOfSquaresUpToFive" classname="DifferenceOfSquaresCalculatorStreamTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
