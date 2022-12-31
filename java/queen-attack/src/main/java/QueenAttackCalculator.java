@@ -1,10 +1,34 @@
-/*
+import static java.lang.Math.abs;
 
-Since this exercise has a difficulty of > 4 it doesn't come
-with any starter implementation.
-This is so that you get to practice creating classes and methods
-which is an important part of programming in Java.
+import java.util.Objects;
 
-Please remove this comment when submitting your solution.
+public class QueenAttackCalculator {
+    private final Queen firstQueen;
+    private final Queen secondQueen;
 
-*/
+    private final int[][] chessTable = new int[8][8];
+
+    public QueenAttackCalculator(Queen firstQueen, Queen secondQueen) {
+        validateQueens(firstQueen, secondQueen);
+        this.firstQueen = firstQueen;
+        this.secondQueen = secondQueen;
+    }
+
+    public boolean canQueensAttackOneAnother() {
+        double diff = abs((secondQueen.getRow() - firstQueen.getRow()));
+        if (diff == 0) {
+            return true;
+        }
+        double result = abs((secondQueen.getColumn() - firstQueen.getColumn())) / diff;
+        return result == 0.0 || result == 1.0;
+    }
+
+    private void validateQueens(Queen firstQueen, Queen secondQueen) {
+        if (Objects.isNull(firstQueen) || Objects.isNull(secondQueen)) {
+            throw new IllegalArgumentException("You must supply valid positions for both Queens.");
+        }
+        if (firstQueen.equals(secondQueen)) {
+            throw new IllegalArgumentException("Queens cannot occupy the same position.");
+        }
+    }
+}
