@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dce6cf00-fcc7-443d-80b1-a8daee6278b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tournament.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TournamentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TournamentTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="dce6cf00-fcc7-443d-80b1-a8daee6278b9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672621312025</updated>
-      <workItem from="1672621313767" duration="4904000" />
+      <workItem from="1672621313767" duration="5307000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672621396446</created>
@@ -162,26 +158,25 @@
       <option name="project" value="LOCAL" />
       <updated>1672621396446</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tournament">
+      <created>1672627011641</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672627011641</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Tournament.java</url>
-          <line>108</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Tournament" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tournament" />
   </component>
 </project>
